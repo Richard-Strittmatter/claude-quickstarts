@@ -1,0 +1,43 @@
+Hallo Sham, du hast eine neue Offerten-Anfrage bekommen.
+
+===================================
+DIENSTLEISTUNG: [dienstleistung]
+===================================
+
+Gewünschtes Datum: [wunschdatum]
+
+--- ADRESSE ---
+Straße: [strasse] [hausnummer]
+PLZ/Ort: [plz] [ort]
+Land: [land]
+Stockwerk: [stockwerk]
+Zimmer: [zimmer]
+Quadratmeter: [quadratmeter]
+Aufzug: [aufzug]
+Möbellift: [moebellift]
+Parkverbot: [parkverbot]
+
+--- ZIELADRESSE (nur bei Umzug) ---
+Straße: [strasse-ziel] [hausnummer-ziel]
+PLZ/Ort: [plz-ziel] [ort-ziel]
+Land: [land-ziel]
+Stockwerk: [stockwerk-ziel]
+Aufzug: [aufzug-ziel]
+Parkverbot: [parkverbot-ziel]
+Möbellift: [moebellift-ziel]
+
+--- ZUSÄTZLICHE SERVICES (nur bei Umzug) ---
+[services]
+
+--- ABNAHMEGARANTIE (nur bei Reinigung) ---
+[abnahmegarantie]
+
+--- BEMERKUNGEN ---
+[bemerkungen]
+
+===================================
+KONTAKTDATEN
+===================================
+Person: [vorname] [nachname]
+Email: [email]
+Telefon: [telefon]

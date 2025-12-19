@@ -1,0 +1,107 @@
+<label><b>Art der Dienstleistung*</b></label>
+[radio dienstleistung use_label_element default:1 "Umzug" "Entsorgung" "Räumung" "Reinigung"]
+<br><br>
+
+<label><b>Ihr gewünschtes Datum</b></label>
+[date wunschdatum]
+<br><br>
+
+<label><b>Adresse</b></label>
+<label> Straße*
+    [text* strasse] </label>
+
+<label> Hausnummer*
+    [text* hausnummer] </label>
+
+<label> PLZ*
+    [text* plz] </label>
+
+<label> Ort*
+    [text* ort] </label>
+
+<label> Land*
+    [text* land placeholder "Schweiz"] </label>
+
+<label> Stockwerk*
+    [number* stockwerk] </label>
+
+<label> Anzahl Zimmer*
+    [number* zimmer min:1 max:20] </label>
+
+<label> Quadratmeter*
+    [number* quadratmeter] </label>
+
+<label> Aufzug vorhanden* </label>
+[radio aufzug use_label_element default:2 "Ja" "Nein"]
+<br><br>
+
+[group moebellift-gruppe]
+<label> Möbellift benötigt* </label>
+[radio moebellift use_label_element default:2 "Ja" "Nein"]
+<br><br>
+[/group]
+
+[group umzug-extras]
+<label> Parkverbotszone einrichten lassen* </label>
+[radio parkverbot use_label_element default:2 "Ja" "Nein"]
+<br><br>
+
+<label><b>Zieladresse</b></label>
+<label> Straße*
+    [text* strasse-ziel] </label>
+
+<label> Hausnummer*
+    [text* hausnummer-ziel] </label>
+
+<label> PLZ*
+    [text* plz-ziel] </label>
+
+<label> Ort*
+    [text* ort-ziel] </label>
+
+<label> Land*
+    [text* land-ziel placeholder "Schweiz"] </label>
+
+<label> Stockwerk*
+    [number* stockwerk-ziel] </label>
+
+<label> Aufzug vorhanden* </label>
+[radio aufzug-ziel use_label_element default:2 "Ja" "Nein"]
+
+<label> Parkverbotszone einrichten lassen* </label>
+[radio parkverbot-ziel use_label_element default:2 "Ja" "Nein"]
+
+<label> Möbellift benötigt* </label>
+[radio moebellift-ziel use_label_element default:2 "Ja" "Nein"]
+<br><br>
+
+<label><b>Zusätzliche Services</b></label>
+[checkbox services use_label_element "Demontage" "Montage" "Umzugskartons" "Einpackservice"]
+<br><br>
+[/group]
+
+[group reinigung-extras]
+<label><b>Abnahmegarantie</b></label>
+[checkbox abnahmegarantie use_label_element "Abnahmegarantie gewünscht"]
+<br><br>
+[/group]
+
+<label><b>Bemerkungen</b></label>
+[textarea bemerkungen]
+<br><br>
+
+<label><b>Ihre Kontaktdaten (Pflicht)</b></label>
+<label> Vorname*
+    [text* vorname] </label>
+
+<label> Nachname*
+    [text* nachname] </label>
+
+<label> Ihre E-Mail*
+    [email* email] </label>
+
+<label> Telefonnummer*
+    [tel* telefon] </label>
+<br>
+
+[submit "Offerte beantragen"]
